@@ -1,0 +1,245 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+div.Readymade {
+  color : #F7819F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size : 50px;
+
+}
+
+hr {
+  background-color: pink;
+
+}
+
+div.detail {
+  display : inline-block;
+}
+
+div.three {
+  padding-left : 200px;
+  display : inline-block;
+}
+
+.menubar{
+border:none;
+background: rgba(255, 255, 255, 0);
+border:0px;
+margin:0px;
+width: 100%;
+padding:0px;
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+position: fixed;
+top:0px;
+z-index: 2;
+}
+
+.menubar ul{
+background:  rgba(255, 255, 255, 0);
+height:50px;
+list-style:none;
+margin:0;
+margin-right:20px;
+padding:0;
+float: right;
+}
+
+.menubar li{
+float:left;
+padding:0px;
+}
+
+.menubar li a{
+background:  rgba(255, 255, 255, 0);
+color:black;
+display:block;
+font-weight:normal;
+line-height:50px;
+margin:0px;
+padding:0px 15px;
+text-align:center;
+text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+background:none;
+color:black;
+text-decoration:underline;
+
+}
+
+.menubar li ul{
+background: rgba(255, 255, 255, 0);
+display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+width:200px;
+position:absolute;
+z-index:200;
+}
+
+.menubar li:hover ul{
+display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+background:  rgba(255, 255, 255, 0);
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+  background:none;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background:  rgba(255, 255, 255, 0);
+border:0px;
+color:black;
+text-decoration:none;
+}
+
+.menubar p{
+clear:left;
+}
+
+
+table.type03 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #FE2E64;
+  margin : 20px 10px;
+}
+
+table.type03 caption {
+  font-family: Arial, Helvetica, sans-serif;
+  color : #FE2E64;
+}
+
+table.type03 th {
+    width: 147px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+    text-align: center;
+
+}
+table.type03 td {
+    width: 349px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+}
+table.type01 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #FE2E64;
+  margin : 20px 10px;
+}
+
+table.type01 caption {
+  font-family: Arial, Helvetica, sans-serif;
+  color : #FE2E64;
+  text-align : center;
+}
+
+table.type01 th {
+    width: 147px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+    text-align : center;
+
+}
+table.type01 td {
+    width: 349px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+}
+table.type02 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #FE2E64;
+  margin : 20px 10px;
+}
+
+table.type02 caption {
+  font-family: Arial, Helvetica, sans-serif;
+  color : #FE2E64;
+  text-align : center;
+}
+
+table.type02 th {
+    width: 147px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+    text-align : center;
+
+}
+table.type02 td {
+    width: 349px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size:11px;
+    color:#555555;
+    font-weight:bold;
+}
+
+div.Bootstrapbutton {
+  text-align : center;
+}

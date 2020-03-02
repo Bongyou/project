@@ -1,0 +1,364 @@
+body
+{
+    background: #fafafa;
+}
+
+.wrapper
+{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgba(210, 212, 212, 0.69);
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(154, 156, 156, 0.82);
+    padding: 30px;
+    box-sizing: border-box;
+    font: 16px, sans-serif;
+}
+
+header > section
+{
+    display: inline-block;
+    height:100%;
+    vertical-align: top;
+}
+
+.sellerContact
+{
+    margin: 0 5px;
+}
+
+.sellerInfo
+{
+    width: 60%;
+}
+
+.sellerLogo
+{
+    text-align: right;
+    width: 30%;
+}
+
+#sellerImg
+{
+    width: 50%;
+    min-width:150px;
+}
+
+.tabs
+{
+    list-style: none;
+    padding: 0;
+}
+
+.tabs > li
+{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:focus
+{
+    outline: none;
+}
+
+a,
+a:visited
+{
+    color: #1c1fb2;
+}
+
+.ui-tabs-active > a,
+.ui-tabs-active > a:active
+{
+    color: #000;
+}
+
+#paymentSource > li
+{
+    font-size: 1em;
+    padding: 5px;
+}
+
+#paymentSource > .ui-tabs-active
+{
+    background: #e8e8e8;
+}
+
+#paymentSource > .ui-state-hover
+{
+    background: rgba(191, 191, 191, 0.3);
+}
+
+span.fa
+{
+    font-size: 0.8em;
+}
+
+a:active
+{
+    color: #7c7bff;
+}
+
+.anyBank
+{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.cardImg
+{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #000;
+    width: 70%;
+    background: rgba(232, 232, 232, 0.5);
+    margin: auto;
+}
+
+.cardLogos
+{
+    text-align: right;
+}
+
+.cardLogo
+{
+    width: 15%;
+    vertical-align: middle;
+}
+
+input
+{
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+input:valid
+{
+    border-bottom: 1px solid rgba(61, 209, 53, 0.8);
+}
+
+input:invalid
+{
+    border-bottom: 1px solid rgba(239, 49, 53, 0.8);
+}
+
+.cardInput
+{
+    margin: 10px 10px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.cardInput:first-of-type
+{
+    width: 70%;
+    margin-top: 10%;
+}
+
+#cardNumber
+{
+    display: block;
+    height: 30px;
+    top: 70px;
+}
+
+#valid,
+#cvc
+{
+    display: inline-block;
+    width: 60px;
+    top: 90px;
+}
+
+.infoLabel,
+.inBankLabel,
+.reqLabel
+{
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    min-width: 120px;
+}
+
+.infoInput
+{
+    width: 60%;
+}
+
+.inBankLabel
+{
+    display: inline-block;
+}
+
+.bankInput,
+.reqPaymentInput
+{
+    width: 50%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#bankSum,
+#reqSum
+{
+    width: 30%;
+}
+
+.formRow
+{
+    margin: 10px 0;
+}
+
+.formButton
+{
+    padding: 1px 10px;
+}
+
+.formButton:enabled:hover
+{
+    opacity:0.8;
+}
+
+.formButton[type=submit]
+{
+    background-color: rgba(84,232,76,0.66);
+}
+
+.formButton[type=reset]
+{
+    background-color: rgba(232,66,64,0.66);
+}
+
+.formButton[type=reset]:active
+{
+    background-color: rgba(207, 60, 58, 0.8);
+    opacity:1;
+}
+
+.sellerGoods
+{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.sellerGood
+{
+    min-height: 200px;
+    display: inline-block;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid #bfbfbf;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.goodImg
+{
+    width: 100%;
+    display: block;
+}
+
+.goodCaption,
+.goodPrice
+{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.goodCaption
+{
+    font-weight: 600;
+}
+
+.goodPrice
+{
+    color: #8d8d8d;
+}
+
+.shareButton
+{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #e8e8e8;
+    margin: 5px;
+
+}
+
+.socialButtons .fa
+{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px)
+{
+    header>section,
+    .anyBank
+    {
+        display: block;
+    }
+
+    .anyBank
+    {
+        width: auto;
+        margin:auto;
+    }
+
+    .colLeft
+    {
+        width: 60%
+    }
+
+    .sellerGood
+    {
+        width: 40%;
+    }
+
+    .cardImg
+    {
+        width: auto;
+    }
+
+    .wrapper
+    {
+        width: auto;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .sellerGood
+    {
+        display: block;
+        width: auto;
+    }
+
+    .colLeft
+    {
+        width: auto;
+    }
+}
